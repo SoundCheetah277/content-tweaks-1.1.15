@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jars">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/META-INF/jars/cardinal-components-base-5.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/META-INF/jars/cardinal-components-entity-5.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/META-INF/jars/MixinExtras-0.2.0-beta.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

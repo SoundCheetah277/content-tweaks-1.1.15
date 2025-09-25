@@ -1,0 +1,51 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ladysnake.contenttweaks.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractBlockMixin",
+    "AbstractDecorationEntityMixin",
+    "AbstractFurnaceBlockEntityMixin",
+    "AbstractSignBlockMixin",
+    "AnvilBlockMixin",
+    "AnvilScreenHandlerMixin",
+    "ArmorMaterialsMixin",
+    "ArmorStandEntityMixin",
+    "ArmorStandItemMixin",
+    "BlockMixin",
+    "BucketItemMixin",
+    "BundleItemMixin",
+    "ChorusFlowerBlockMixin",
+    "DispenserBlockMixin",
+    "EndermanEntityMixin",
+    "EndermanMobEntityMixin",
+    "EntityMixin",
+    "EvokerEntityMixin",
+    "EvokerEntityMixin$SummonVexGoalMixin",
+    "IronGolemEntityMixin",
+    "ItemFrameEntityMixin",
+    "ItemMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "MilkBucketItemMixin",
+    "MobEntityMixin",
+    "PhantomSpawnerMixin",
+    "PlayerEntityDeathMixin",
+    "PlayerEntityMixin",
+    "PowderSnowBucketItemMixin",
+    "RaiderEntityMixin",
+    "ServerPlayNetworkHandlerMixin",
+    "ToolMaterialsMixin",
+    "TridentItemMixin",
+    "VillagerEntityMixin",
+    "accessors.AbstractFurnaceBlockEntityAccessor"
+  ],
+  "client": [
+    "client.BeaconBlockEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "content-tweaks-refmap.json"
+}

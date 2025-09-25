@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "contenttweaks",
+  "version": "1.1.15",
+  "name": "Content Tweaks",
+  "description": "Refreshes villager trades daily, repair netherite with diamonds, repair tridents with prismarine",
+  "authors": [
+    "doctor4t"
+  ],
+  "license": "ARR",
+  "icon": "assets/contenttweaks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "preLaunch": [
+      "ladysnake.contenttweaks.ContentTweaksPreLaunch"
+    ],
+    "main": [
+      "ladysnake.contenttweaks.ContentTweaks"
+    ],
+    "client": [
+      "ladysnake.contenttweaks.client.ContentTweaksClient"
+    ],
+    "cardinal-components-entity": [
+      "ladysnake.contenttweaks.ContentComponents"
+    ]
+  },
+  "mixins": [
+    "contenttweaks.mixins.json"
+  ],
+  "accessWidener": "contenttweaks.accesswidener",
+  "custom": {
+    "cardinal-components": [
+      "contenttweaks:recoverypos"
+    ]
+  },
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14.11",
+    "minecraft": "1.19.2",
+    "java": "\u003e\u003d17",
+    "fabric-api": "\u003e\u003d0.70.0"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/cardinal-components-base-5.0.2.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-entity-5.0.2.jar"
+    },
+    {
+      "file": "META-INF/jars/MixinExtras-0.2.0-beta.4.jar"
+    }
+  ]
+}

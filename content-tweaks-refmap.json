@@ -1,0 +1,244 @@
+{
+  "mappings": {
+    "ladysnake/contenttweaks/mixin/ItemStackMixin": {
+      "damage(ILnet/minecraft/entity/LivingEntity;Ljava/util/function/Consumer;)V": "Lnet/minecraft/class_1799;method_7956(ILnet/minecraft/class_1309;Ljava/util/function/Consumer;)V",
+      "damage(ILnet/minecraft/util/math/random/Random;Lnet/minecraft/server/network/ServerPlayerEntity;)Z": "Lnet/minecraft/class_1799;method_7970(ILnet/minecraft/class_5819;Lnet/minecraft/class_3222;)Z"
+    },
+    "ladysnake/contenttweaks/mixin/VillagerEntityMixin": {
+      "clearDailyRestockCount": "Lnet/minecraft/class_1646;method_20821()V"
+    },
+    "ladysnake/contenttweaks/mixin/accessors/AbstractFurnaceBlockEntityAccessor": {
+      "inventory": "field_11984:Lnet/minecraft/class_2371;"
+    },
+    "ladysnake/contenttweaks/mixin/ArmorStandItemMixin": {
+      "Lnet/minecraft/entity/decoration/ArmorStandEntity;emitGameEvent(Lnet/minecraft/world/event/GameEvent;Lnet/minecraft/entity/Entity;)V": "Lnet/minecraft/class_1531;method_32875(Lnet/minecraft/class_5712;Lnet/minecraft/class_1297;)V",
+      "useOnBlock": "Lnet/minecraft/class_1742;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+    },
+    "ladysnake/contenttweaks/mixin/BucketItemMixin": {
+      "getEmptiedStack": "Lnet/minecraft/class_1755;method_7732(Lnet/minecraft/class_1799;Lnet/minecraft/class_1657;)Lnet/minecraft/class_1799;"
+    },
+    "ladysnake/contenttweaks/mixin/EndermanEntityMixin": {
+      "initGoals": "Lnet/minecraft/class_1560;method_5959()V"
+    },
+    "ladysnake/contenttweaks/mixin/ArmorStandEntityMixin": {
+      "damage": "Lnet/minecraft/class_1531;method_5643(Lnet/minecraft/class_1282;F)Z"
+    },
+    "ladysnake/contenttweaks/mixin/AnvilScreenHandlerMixin": {
+      "updateResult": "Lnet/minecraft/class_1706;method_24928()V",
+      "Lnet/minecraft/item/ItemStack;isOf(Lnet/minecraft/item/Item;)Z": "Lnet/minecraft/class_1799;method_31574(Lnet/minecraft/class_1792;)Z"
+    },
+    "ladysnake/contenttweaks/mixin/client/BeaconBlockEntityRendererMixin": {
+      "render(Lnet/minecraft/block/entity/BeaconBlockEntity;FLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;II)V": "Lnet/minecraft/class_822;method_3541(Lnet/minecraft/class_2580;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;II)V",
+      "Lnet/minecraft/client/render/block/entity/BeaconBlockEntityRenderer;renderBeam(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;FJII[F)V": "Lnet/minecraft/class_822;method_3543(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;FJII[F)V"
+    },
+    "ladysnake/contenttweaks/mixin/RaiderEntityMixin": {
+      "onDeath": "Lnet/minecraft/class_3763;method_6078(Lnet/minecraft/class_1282;)V"
+    },
+    "ladysnake/contenttweaks/mixin/AnvilBlockMixin": {
+      "getOutlineShape": "Lnet/minecraft/class_2199;method_9530(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_3726;)Lnet/minecraft/class_265;"
+    },
+    "ladysnake/contenttweaks/mixin/ItemMixin": {
+      "getMaxCount": "Lnet/minecraft/class_1792;method_7882()I"
+    },
+    "ladysnake/contenttweaks/mixin/AbstractBlockMixin": {
+      "getOpacity": "Lnet/minecraft/class_4970;method_9505(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)I"
+    },
+    "ladysnake/contenttweaks/mixin/LivingEntityMixin": {
+      "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z",
+      "Lnet/minecraft/entity/LivingEntity;scheduleVelocityUpdate()V": "Lnet/minecraft/class_1309;method_5785()V",
+      "Lnet/minecraft/entity/LivingEntity;takeKnockback(DDD)V": "Lnet/minecraft/class_1309;method_6005(DDD)V"
+    },
+    "ladysnake/contenttweaks/mixin/IronGolemEntityMixin": {
+      "canTarget": "Lnet/minecraft/class_1439;method_5973(Lnet/minecraft/class_1299;)Z"
+    },
+    "ladysnake/contenttweaks/mixin/ArmorMaterialsMixin": {
+      "getRepairIngredient": "Lnet/minecraft/class_1740;method_7695()Lnet/minecraft/class_1856;"
+    },
+    "ladysnake/contenttweaks/mixin/EntityMixin": {
+      "Lnet/minecraft/world/World;spawnEntity(Lnet/minecraft/entity/Entity;)Z": "Lnet/minecraft/class_1937;method_8649(Lnet/minecraft/class_1297;)Z",
+      "Lnet/minecraft/entity/ItemEntity;setToDefaultPickupDelay()V": "Lnet/minecraft/class_1542;method_6988()V",
+      "dropStack(Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/ItemEntity;": "Lnet/minecraft/class_1297;method_5699(Lnet/minecraft/class_1799;F)Lnet/minecraft/class_1542;"
+    },
+    "ladysnake/contenttweaks/mixin/AbstractFurnaceBlockEntityMixin": {
+      "Lnet/minecraft/item/ItemStack;decrement(I)V": "Lnet/minecraft/class_1799;method_7934(I)V",
+      "Lnet/minecraft/util/collection/DefaultedList;set(ILjava/lang/Object;)Ljava/lang/Object;": "Lnet/minecraft/class_2371;set(ILjava/lang/Object;)Ljava/lang/Object;",
+      "tick": "Lnet/minecraft/class_2609;method_31651(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2609;)V"
+    },
+    "ladysnake/contenttweaks/mixin/PlayerEntityMixin": {
+      "getLastDeathPos": "Lnet/minecraft/class_1657;method_43122()Ljava/util/Optional;",
+      "tick": "Lnet/minecraft/class_1657;method_5773()V"
+    },
+    "ladysnake/contenttweaks/mixin/AbstractDecorationEntityMixin": {
+      "damage": "Lnet/minecraft/class_1530;method_5643(Lnet/minecraft/class_1282;F)Z"
+    },
+    "ladysnake/contenttweaks/mixin/PlayerEntityDeathMixin": {
+      "dropInventory": "Lnet/minecraft/class_1657;method_16078()V"
+    },
+    "ladysnake/contenttweaks/mixin/MobEntityMixin": {
+      "cannotDespawn": "Lnet/minecraft/class_1308;method_17326()Z",
+      "tick": "Lnet/minecraft/class_1308;method_5773()V"
+    },
+    "ladysnake/contenttweaks/mixin/ToolMaterialsMixin": {
+      "getRepairIngredient": "Lnet/minecraft/class_1834;method_8023()Lnet/minecraft/class_1856;"
+    },
+    "ladysnake/contenttweaks/mixin/AbstractSignBlockMixin": {
+      "onUse": "Lnet/minecraft/class_2478;method_9534(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;Lnet/minecraft/class_3965;)Lnet/minecraft/class_1269;"
+    },
+    "ladysnake/contenttweaks/mixin/BlockMixin": {
+      "dropStack(Lnet/minecraft/world/World;Ljava/util/function/Supplier;Lnet/minecraft/item/ItemStack;)V": "Lnet/minecraft/class_2248;method_36993(Lnet/minecraft/class_1937;Ljava/util/function/Supplier;Lnet/minecraft/class_1799;)V",
+      "Lnet/minecraft/world/World;spawnEntity(Lnet/minecraft/entity/Entity;)Z": "Lnet/minecraft/class_1937;method_8649(Lnet/minecraft/class_1297;)Z",
+      "Lnet/minecraft/entity/ItemEntity;setToDefaultPickupDelay()V": "Lnet/minecraft/class_1542;method_6988()V"
+    },
+    "ladysnake/contenttweaks/mixin/EndermanMobEntityMixin": {
+      "interact": "Lnet/minecraft/class_1308;method_5688(Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;"
+    },
+    "ladysnake/contenttweaks/mixin/ChorusFlowerBlockMixin": {
+      "randomTick": "Lnet/minecraft/class_2279;method_9514(Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_5819;)V",
+      "Lnet/minecraft/block/ChorusFlowerBlock;die(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V": "Lnet/minecraft/class_2279;method_9747(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V"
+    },
+    "ladysnake/contenttweaks/mixin/DispenserBlockMixin": {
+      "registerBehavior": "Lnet/minecraft/class_2315;method_10009(Lnet/minecraft/class_1935;Lnet/minecraft/class_2357;)V"
+    },
+    "ladysnake/contenttweaks/mixin/MilkBucketItemMixin": {
+      "Lnet/minecraft/item/ItemStack;decrement(I)V": "Lnet/minecraft/class_1799;method_7934(I)V",
+      "finishUsing": "Lnet/minecraft/class_1805;method_7861(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)Lnet/minecraft/class_1799;"
+    },
+    "ladysnake/contenttweaks/mixin/EvokerEntityMixin$SummonVexGoalMixin": {
+      "Lnet/minecraft/entity/mob/VexEntity;setOwner(Lnet/minecraft/entity/mob/MobEntity;)V": "Lnet/minecraft/class_1634;method_7178(Lnet/minecraft/class_1308;)V",
+      "castSpell": "Lnet/minecraft/class_1564$class_1567;method_7148()V"
+    },
+    "ladysnake/contenttweaks/mixin/PhantomSpawnerMixin": {
+      "spawn": "Lnet/minecraft/class_2910;method_6445(Lnet/minecraft/class_3218;ZZ)I"
+    },
+    "ladysnake/contenttweaks/mixin/ItemFrameEntityMixin": {
+      "damage": "Lnet/minecraft/class_1533;method_5643(Lnet/minecraft/class_1282;F)Z",
+      "interact": "Lnet/minecraft/class_1533;method_5688(Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;"
+    },
+    "ladysnake/contenttweaks/mixin/ServerPlayNetworkHandlerMixin": {
+      "onPlayerMove": "Lnet/minecraft/class_3244;method_12063(Lnet/minecraft/class_2828;)V",
+      "Lnet/minecraft/server/network/ServerPlayerEntity;isInTeleportationState()Z": "Lnet/minecraft/class_3222;method_14208()Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "ladysnake/contenttweaks/mixin/ItemStackMixin": {
+        "damage(ILnet/minecraft/entity/LivingEntity;Ljava/util/function/Consumer;)V": "Lnet/minecraft/class_1799;method_7956(ILnet/minecraft/class_1309;Ljava/util/function/Consumer;)V",
+        "damage(ILnet/minecraft/util/math/random/Random;Lnet/minecraft/server/network/ServerPlayerEntity;)Z": "Lnet/minecraft/class_1799;method_7970(ILnet/minecraft/class_5819;Lnet/minecraft/class_3222;)Z"
+      },
+      "ladysnake/contenttweaks/mixin/VillagerEntityMixin": {
+        "clearDailyRestockCount": "Lnet/minecraft/class_1646;method_20821()V"
+      },
+      "ladysnake/contenttweaks/mixin/accessors/AbstractFurnaceBlockEntityAccessor": {
+        "inventory": "field_11984:Lnet/minecraft/class_2371;"
+      },
+      "ladysnake/contenttweaks/mixin/ArmorStandItemMixin": {
+        "Lnet/minecraft/entity/decoration/ArmorStandEntity;emitGameEvent(Lnet/minecraft/world/event/GameEvent;Lnet/minecraft/entity/Entity;)V": "Lnet/minecraft/class_1531;method_32875(Lnet/minecraft/class_5712;Lnet/minecraft/class_1297;)V",
+        "useOnBlock": "Lnet/minecraft/class_1742;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+      },
+      "ladysnake/contenttweaks/mixin/BucketItemMixin": {
+        "getEmptiedStack": "Lnet/minecraft/class_1755;method_7732(Lnet/minecraft/class_1799;Lnet/minecraft/class_1657;)Lnet/minecraft/class_1799;"
+      },
+      "ladysnake/contenttweaks/mixin/EndermanEntityMixin": {
+        "initGoals": "Lnet/minecraft/class_1560;method_5959()V"
+      },
+      "ladysnake/contenttweaks/mixin/ArmorStandEntityMixin": {
+        "damage": "Lnet/minecraft/class_1531;method_5643(Lnet/minecraft/class_1282;F)Z"
+      },
+      "ladysnake/contenttweaks/mixin/AnvilScreenHandlerMixin": {
+        "updateResult": "Lnet/minecraft/class_1706;method_24928()V",
+        "Lnet/minecraft/item/ItemStack;isOf(Lnet/minecraft/item/Item;)Z": "Lnet/minecraft/class_1799;method_31574(Lnet/minecraft/class_1792;)Z"
+      },
+      "ladysnake/contenttweaks/mixin/client/BeaconBlockEntityRendererMixin": {
+        "render(Lnet/minecraft/block/entity/BeaconBlockEntity;FLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;II)V": "Lnet/minecraft/class_822;method_3541(Lnet/minecraft/class_2580;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;II)V",
+        "Lnet/minecraft/client/render/block/entity/BeaconBlockEntityRenderer;renderBeam(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;FJII[F)V": "Lnet/minecraft/class_822;method_3543(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;FJII[F)V"
+      },
+      "ladysnake/contenttweaks/mixin/RaiderEntityMixin": {
+        "onDeath": "Lnet/minecraft/class_3763;method_6078(Lnet/minecraft/class_1282;)V"
+      },
+      "ladysnake/contenttweaks/mixin/AnvilBlockMixin": {
+        "getOutlineShape": "Lnet/minecraft/class_2199;method_9530(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_3726;)Lnet/minecraft/class_265;"
+      },
+      "ladysnake/contenttweaks/mixin/ItemMixin": {
+        "getMaxCount": "Lnet/minecraft/class_1792;method_7882()I"
+      },
+      "ladysnake/contenttweaks/mixin/AbstractBlockMixin": {
+        "getOpacity": "Lnet/minecraft/class_4970;method_9505(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)I"
+      },
+      "ladysnake/contenttweaks/mixin/LivingEntityMixin": {
+        "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z",
+        "Lnet/minecraft/entity/LivingEntity;scheduleVelocityUpdate()V": "Lnet/minecraft/class_1309;method_5785()V",
+        "Lnet/minecraft/entity/LivingEntity;takeKnockback(DDD)V": "Lnet/minecraft/class_1309;method_6005(DDD)V"
+      },
+      "ladysnake/contenttweaks/mixin/IronGolemEntityMixin": {
+        "canTarget": "Lnet/minecraft/class_1439;method_5973(Lnet/minecraft/class_1299;)Z"
+      },
+      "ladysnake/contenttweaks/mixin/ArmorMaterialsMixin": {
+        "getRepairIngredient": "Lnet/minecraft/class_1740;method_7695()Lnet/minecraft/class_1856;"
+      },
+      "ladysnake/contenttweaks/mixin/EntityMixin": {
+        "Lnet/minecraft/world/World;spawnEntity(Lnet/minecraft/entity/Entity;)Z": "Lnet/minecraft/class_1937;method_8649(Lnet/minecraft/class_1297;)Z",
+        "Lnet/minecraft/entity/ItemEntity;setToDefaultPickupDelay()V": "Lnet/minecraft/class_1542;method_6988()V",
+        "dropStack(Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/ItemEntity;": "Lnet/minecraft/class_1297;method_5699(Lnet/minecraft/class_1799;F)Lnet/minecraft/class_1542;"
+      },
+      "ladysnake/contenttweaks/mixin/AbstractFurnaceBlockEntityMixin": {
+        "Lnet/minecraft/item/ItemStack;decrement(I)V": "Lnet/minecraft/class_1799;method_7934(I)V",
+        "Lnet/minecraft/util/collection/DefaultedList;set(ILjava/lang/Object;)Ljava/lang/Object;": "Lnet/minecraft/class_2371;set(ILjava/lang/Object;)Ljava/lang/Object;",
+        "tick": "Lnet/minecraft/class_2609;method_31651(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2609;)V"
+      },
+      "ladysnake/contenttweaks/mixin/PlayerEntityMixin": {
+        "getLastDeathPos": "Lnet/minecraft/class_1657;method_43122()Ljava/util/Optional;",
+        "tick": "Lnet/minecraft/class_1657;method_5773()V"
+      },
+      "ladysnake/contenttweaks/mixin/AbstractDecorationEntityMixin": {
+        "damage": "Lnet/minecraft/class_1530;method_5643(Lnet/minecraft/class_1282;F)Z"
+      },
+      "ladysnake/contenttweaks/mixin/PlayerEntityDeathMixin": {
+        "dropInventory": "Lnet/minecraft/class_1657;method_16078()V"
+      },
+      "ladysnake/contenttweaks/mixin/MobEntityMixin": {
+        "cannotDespawn": "Lnet/minecraft/class_1308;method_17326()Z",
+        "tick": "Lnet/minecraft/class_1308;method_5773()V"
+      },
+      "ladysnake/contenttweaks/mixin/ToolMaterialsMixin": {
+        "getRepairIngredient": "Lnet/minecraft/class_1834;method_8023()Lnet/minecraft/class_1856;"
+      },
+      "ladysnake/contenttweaks/mixin/AbstractSignBlockMixin": {
+        "onUse": "Lnet/minecraft/class_2478;method_9534(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;Lnet/minecraft/class_3965;)Lnet/minecraft/class_1269;"
+      },
+      "ladysnake/contenttweaks/mixin/BlockMixin": {
+        "dropStack(Lnet/minecraft/world/World;Ljava/util/function/Supplier;Lnet/minecraft/item/ItemStack;)V": "Lnet/minecraft/class_2248;method_36993(Lnet/minecraft/class_1937;Ljava/util/function/Supplier;Lnet/minecraft/class_1799;)V",
+        "Lnet/minecraft/world/World;spawnEntity(Lnet/minecraft/entity/Entity;)Z": "Lnet/minecraft/class_1937;method_8649(Lnet/minecraft/class_1297;)Z",
+        "Lnet/minecraft/entity/ItemEntity;setToDefaultPickupDelay()V": "Lnet/minecraft/class_1542;method_6988()V"
+      },
+      "ladysnake/contenttweaks/mixin/EndermanMobEntityMixin": {
+        "interact": "Lnet/minecraft/class_1308;method_5688(Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;"
+      },
+      "ladysnake/contenttweaks/mixin/ChorusFlowerBlockMixin": {
+        "randomTick": "Lnet/minecraft/class_2279;method_9514(Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_5819;)V",
+        "Lnet/minecraft/block/ChorusFlowerBlock;die(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V": "Lnet/minecraft/class_2279;method_9747(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V"
+      },
+      "ladysnake/contenttweaks/mixin/DispenserBlockMixin": {
+        "registerBehavior": "Lnet/minecraft/class_2315;method_10009(Lnet/minecraft/class_1935;Lnet/minecraft/class_2357;)V"
+      },
+      "ladysnake/contenttweaks/mixin/MilkBucketItemMixin": {
+        "Lnet/minecraft/item/ItemStack;decrement(I)V": "Lnet/minecraft/class_1799;method_7934(I)V",
+        "finishUsing": "Lnet/minecraft/class_1805;method_7861(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)Lnet/minecraft/class_1799;"
+      },
+      "ladysnake/contenttweaks/mixin/EvokerEntityMixin$SummonVexGoalMixin": {
+        "Lnet/minecraft/entity/mob/VexEntity;setOwner(Lnet/minecraft/entity/mob/MobEntity;)V": "Lnet/minecraft/class_1634;method_7178(Lnet/minecraft/class_1308;)V",
+        "castSpell": "Lnet/minecraft/class_1564$class_1567;method_7148()V"
+      },
+      "ladysnake/contenttweaks/mixin/PhantomSpawnerMixin": {
+        "spawn": "Lnet/minecraft/class_2910;method_6445(Lnet/minecraft/class_3218;ZZ)I"
+      },
+      "ladysnake/contenttweaks/mixin/ItemFrameEntityMixin": {
+        "damage": "Lnet/minecraft/class_1533;method_5643(Lnet/minecraft/class_1282;F)Z",
+        "interact": "Lnet/minecraft/class_1533;method_5688(Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;"
+      },
+      "ladysnake/contenttweaks/mixin/ServerPlayNetworkHandlerMixin": {
+        "onPlayerMove": "Lnet/minecraft/class_3244;method_12063(Lnet/minecraft/class_2828;)V",
+        "Lnet/minecraft/server/network/ServerPlayerEntity;isInTeleportationState()Z": "Lnet/minecraft/class_3222;method_14208()Z"
+      }
+    }
+  }
+}
